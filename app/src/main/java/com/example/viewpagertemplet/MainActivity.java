@@ -19,7 +19,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button animation_slider_btn, imp_slider_btn;
+    private Button animation_slider_btn, imp_slider_btn, swipe_view_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,10 +43,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        swipe_view_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getBaseContext(), SwipeViewPager.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setReferences(){
         animation_slider_btn = findViewById(R.id.animation_slider_btn);
         imp_slider_btn = findViewById(R.id.imp_slider_btn);
+        swipe_view_btn = findViewById(R.id.swipe_view_btn);
     }
 }

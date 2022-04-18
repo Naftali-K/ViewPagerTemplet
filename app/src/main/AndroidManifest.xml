@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewPagerTemplet">
         <activity
+            android:name=".SwipeViewPager"
+            android:exported="false" />
+        <activity
             android:name=".ImpPagerWithCircle"
             android:exported="false" />
         <activity

@@ -7,6 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
+import com.example.viewpagertemplet.adapter.SlidePagerAdapter;
 import com.example.viewpagertemplet.fragments.PageFragment1;
 import com.example.viewpagertemplet.fragments.PageFragment2;
 import com.example.viewpagertemplet.fragments.PageFragment3;

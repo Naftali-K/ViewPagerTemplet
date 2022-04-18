@@ -1,4 +1,4 @@
-package com.example.viewpagertemplet;
+package com.example.viewpagertemplet.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
